@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+@media only screen and (max-width: 500px) {
+
+    .logo-img {
+        width: 200px;
+        margin: 15px auto 20px auto;
+        display: block;
+        }
+    .location {
+        background-color: #f6f6f6;
+        text-align: center;
+        height: 300px;
+    }
+    .location__nav i {
+        position: absolute;
+        margin-left: -80px;
+    }
+}
