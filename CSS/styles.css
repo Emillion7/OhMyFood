@@ -227,7 +227,7 @@
         height: 70px;
         border-radius: 0px 0px 15px 15px;
         padding: 5px 5px 0 5px;
-        margin-top: -2px;
+        margin-top: 30px;
     }
     .text-box h4 {
         padding: 10px 0 10px 10px;
@@ -237,24 +237,43 @@
         padding: 0 0 10px 10px;
         font-weight: lighter;
     }
-    .grid .rest1 .text-box .fa-heart {
+    .card-react {
         position: relative;
-        left: 300px;
+        right: 0px;
         top: -50px;
+        overflow: hidden;
+        float: right;
     }
-    .grid .rest2 .text-box .fa-heart {
-        position: relative;
-        left: 300px;
-        top: -50px;
+      
+    .card-react .empty_heart {
+        cursor: pointer;
+        padding-top: 2px;
+        background: white;
+        transform: translate(-30px, 0);
+        font-size: 26px;
+        height: 30px;
     }
-    .grid .rest3 .text-box .fa-heart {
-        position: relative;
-        left: 375px;
-        top: -50px;
-    }.grid .rest4 .text-box .fa-heart {
-        position: relative;
-        left: 375px;
-        top: -50px;
+    .card-react .full_heart {
+        background: linear-gradient(to left top, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        height: 30px;
+        padding-top: 6px;
+        font-size: 26px;
+    }
+    .empty_heart:hover {
+                animation: fillheart 600ms cubic-bezier(0.46, 0.33, 0.92, 1.96) forwards;
+    }
+      
+      @keyframes fillheart {
+        0% {
+                  transform: translate(-30px, 0);
+          color: white;
+        }
+        100% {
+                  transform: translate(-30px, -40px);
+          color: white;
+        }
     }
 
     footer {
@@ -534,7 +553,7 @@
         height: 70px;
         border-radius: 0px 0px 15px 15px;
         padding: 5px 5px 0 5px;
-        margin-top: -2px;
+        margin-top: 30px;
     }
     .text-box h4 {
         padding: 10px 0 10px 10px;
@@ -544,24 +563,45 @@
         padding: 0 0 10px 10px;
         font-weight: lighter;
     }
-    .grid .rest1 .text-box .fa-heart {
+    .card-react {
         position: relative;
-        left: 300px;
+        right: 0px;
         top: -50px;
+        overflow: hidden;
+        float: right;
     }
-    .grid .rest2 .text-box .fa-heart {
-        position: relative;
-        left: 300px;
-        top: -50px;
+      
+    .card-react .empty_heart {
+        cursor: pointer;
+        padding-top: 2px;
+        background: white;
+        transform: translate(-30px, 0);
+        font-size: 26px;
+        height: 30px;
     }
-    .grid .rest3 .text-box .fa-heart {
-        position: relative;
-        left: 375px;
-        top: -50px;
-    }.grid .rest4 .text-box .fa-heart {
-        position: relative;
-        left: 375px;
-        top: -50px;
+      
+    .card-react .full_heart {
+        background: linear-gradient(to left top, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        height: 30px;
+        padding-top: 6px;
+        font-size: 26px;
+    }
+      
+    .empty_heart:hover {
+                animation: fillheart 600ms cubic-bezier(0.46, 0.33, 0.92, 1.96) forwards;
+      }
+      
+      @keyframes fillheart {
+        0% {
+                  transform: translate(-30px, 0);
+          color: white;
+        }
+        100% {
+                  transform: translate(-30px, -40px);
+          color: white;
+        }
     }
     
     footer {
@@ -841,7 +881,7 @@
         height: 70px;
         border-radius: 0px 0px 15px 15px;
         padding: 5px 5px 0 5px;
-        margin-top: -2px;
+        margin-top: 30px;
     }
     .text-box h4 {
         padding: 10px 0 10px 10px;
@@ -851,24 +891,45 @@
         padding: 0 0 10px 10px;
         font-weight: lighter;
     }
-    .grid .rest1 .text-box .fa-heart {
+    .card-react {
         position: relative;
-        left: 300px;
+        right: 0px;
         top: -50px;
+        overflow: hidden;
+        float: right;
     }
-    .grid .rest2 .text-box .fa-heart {
-        position: relative;
-        left: 300px;
-        top: -50px;
+      
+    .card-react .empty_heart {
+        cursor: pointer;
+        padding-top: 2px;
+        background: white;
+        transform: translate(-30px, 0);
+        font-size: 26px;
+        height: 30px;
     }
-    .grid .rest3 .text-box .fa-heart {
-        position: relative;
-        left: 375px;
-        top: -50px;
-    }.grid .rest4 .text-box .fa-heart {
-        position: relative;
-        left: 375px;
-        top: -50px;
+      
+    .card-react .full_heart {
+        background: linear-gradient(to left top, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        height: 30px;
+        padding-top: 6px;
+        font-size: 26px;
+    }
+      
+    .empty_heart:hover {
+                animation: fillheart 600ms cubic-bezier(0.46, 0.33, 0.92, 1.96) forwards;
+      }
+      
+      @keyframes fillheart {
+        0% {
+                  transform: translate(-30px, 0);
+          color: white;
+        }
+        100% {
+                  transform: translate(-30px, -40px);
+          color: white;
+        }
     }
     
     footer {
@@ -1175,7 +1236,7 @@
         height: 70px;
         border-radius: 0px 0px 15px 15px;
         padding: 5px 5px 0 5px;
-        margin-top: -2px;
+        margin-top: 30px;
     }
     .text-box h4 {
         padding: 10px 0 10px 10px;
@@ -1185,35 +1246,42 @@
         padding: 0 0 10px 10px;
         font-weight: lighter;
     }
-    .grid .rest1 .text-box .fa-heart {
+    .card-react {
         position: relative;
-        left: 300px;
+        right: 0px;
         top: -50px;
+        overflow: hidden;
+        float: right;
     }
-    .grid .rest2 .text-box .fa-heart {
-        position: relative;
-        left: 300px;
-        top: -50px;
+    .card-react .empty_heart {
+        cursor: pointer;
+        padding-top: 2px;
+        background: white;
+        transform: translate(-30px, 0);
+        font-size: 26px;
+        height: 30px;
     }
-    .grid .rest3 .text-box .fa-heart {
-        position: relative;
-        left: 375px;
-        top: -50px;
+    .card-react .full_heart {
+        background: linear-gradient(to left top, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        height: 30px;
+        padding-top: 6px;
+        font-size: 26px;
     }
-    .grid .rest4 .text-box .fa-heart {
-        position: relative;
-        left: 375px;
-        top: -50px;
-    }
-    .grid .rest5 .text-box .fa-heart {
-        position: relative;
-        left: 375px;
-        top: -50px;
-    }
-    .grid .rest6 .text-box .fa-heart {
-        position: relative;
-        left: 375px;
-        top: -50px;
+    .empty_heart:hover {
+                animation: fillheart 600ms cubic-bezier(0.46, 0.33, 0.92, 1.96) forwards;
+      }
+      
+      @keyframes fillheart {
+        0% {
+                  transform: translate(-30px, 0);
+          color: white;
+        }
+        100% {
+                  transform: translate(-30px, -40px);
+          color: white;
+        }
     }
     
     footer {
