@@ -1568,13 +1568,13 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     display: block;
-    z-index: 999999999;
+    z-index: 2;
     background-color: white;
   }
 @keyframes cssAnimation {
